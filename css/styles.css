@@ -1,0 +1,109 @@
+/* кастомные свойства */
+:root {
+  --text-color: #ffffff;
+  --main-font: "Roboto", sans-serif;
+}
+
+/* =====БАЗОВЫЙ СБРОС===== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+/* переопределяем изображения с строчных в блочные */
+img {
+  display: block;
+}
+
+/* убираем в списке маркеры */
+.list {
+  list-style: none;
+}
+
+/* убираем в сылках подчеркивание */
+.link {
+  text-decoration: none;
+}
+/* ======END БАЗОВЫЙ СБРОС========= */
+
+.container {
+  width: 1120px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+/* ====================================== */
+
+body {
+  font-family: var(--main-font);
+}
+
+/* =================================== */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #202020;
+  padding-top: 32px;
+  padding-bottom: 45px;
+}
+
+.nav-list-footer:not(:last-child) {
+  margin-right: 63px;
+}
+
+.title-footer {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--text-color);
+  margin-bottom: 7px;
+}
+
+.text-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+.privacy-policy {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 130%;
+  text-decoration-line: underline;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.logo-link-studio {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 130%;
+  color: var(--text-color);
+}
+
+..header-contact-item:not(:last-child) {
+  margin-right: 50px;
+}
