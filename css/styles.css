@@ -88,6 +88,7 @@ body {
 
 .privacy-logo {
   flex-direction: row-reverse;
+  margin-left: 112px;
 }
 
 .text-link {
@@ -100,6 +101,7 @@ body {
 }
 
 .privacy-policy {
+  height: 212px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
